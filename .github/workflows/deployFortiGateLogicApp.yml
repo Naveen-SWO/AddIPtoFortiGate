@@ -31,5 +31,5 @@ jobs:
         with:
           subscriptionId: ${{github.event.inputs.subscriptionId}}
           resourceGroupName: ${{github.event.inputs.resourceGroupName}}
-          template: ./LogicApps/template.json
-          parameters: ./LogicApps/parameters.json
+          template: ./AddIPtoFortiGate/template.json
+          parameters: ./AddIPtoFortiGate/parameters.json
