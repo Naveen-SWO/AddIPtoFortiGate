@@ -38,7 +38,7 @@
           "id": "/subscriptions/ba7f09b1-b6d1-4f56-8a5a-78fdd26eec94/providers/Microsoft.Web/locations/eastus/managedApis/azuresentinel",
           "type": "Microsoft.Web/locations/managedApis"
         },
-        "testLinks": []
+        "parameterValueType": "Alternative"
       }
     },
     {
