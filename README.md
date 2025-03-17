@@ -10,5 +10,5 @@ This readme document provides step-by-step instructions on how to add malicious 
 
 If you want to deploy this app to Azure, just clik the below button.
 
-![Deploy to Azure](https://aka.ms/deploytoazurebutton)
+![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FNaveen-SWO%2FAddIPtoFortiGate%2Frefs%2Fheads%2Fmain%2Ftemplate.json)
 
