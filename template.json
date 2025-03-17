@@ -27,6 +27,8 @@
                     }
                 ],
                 "customParameterValues": {},
+                "alternativeParameterValues": {},
+                "parameterValueType": "Alternative",
                 "createdTime": "2025-03-05T12:54:58.3111027Z",
                 "changedTime": "2025-03-05T12:54:58.3111027Z",
                 "api": {
