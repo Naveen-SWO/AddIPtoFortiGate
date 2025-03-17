@@ -8,3 +8,7 @@ This readme document provides step-by-step instructions on how to add malicious 
 
 ## Steps to Create Azure Logic App
 
+If you want to deploy this app to Azure, just clik the below button.
+
+![Deploy to Azure](https://aka.ms/deploytoazurebutton)
+
