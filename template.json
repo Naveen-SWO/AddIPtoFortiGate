@@ -176,11 +176,11 @@
                                 "HTTP_Add_IP": {
                                     "type": "Http",
                                     "inputs": {
-                                        "uri": "https://fertinetdemo202503.techdemon.xyz/api/v2/cmdb/firewall/address",
+                                        "uri": "https://fortigatedomain.com/api/v2/cmdb/firewall/address",
                                         "method": "POST",
                                         "headers": {
                                             "Content-Type": "application/json",
-                                            "Authorization": "Bearer 3Gmk9yc79ywkGtbk0r9tdNcmNpkzrk"
+                                            "Authorization": "Bearer <your token>"
                                         },
                                         "body": {
                                             "name": "Sentinel_Malicious_IP_@{items('For_each')?['address']}",
@@ -197,11 +197,11 @@
                                 "HTTP_Add_to_Group": {
                                     "type": "Http",
                                     "inputs": {
-                                        "uri": "https://fertinetdemo202503.techdemon.xyz/api/v2/cmdb/firewall/addrgrp/BadActors/member",
+                                        "uri": "https://fortigatedomain.com/api/v2/cmdb/firewall/addrgrp/BadActors/member",
                                         "method": "POST",
                                         "headers": {
                                             "Content-Type": "application/json",
-                                            "Authorization": "Bearer 3Gmk9yc79ywkGtbk0r9tdNcmNpkzrk"
+                                            "Authorization": "Bearer <your token>"
                                         },
                                         "body": {
                                             "name": "Sentinel_Malicious_IP_@{items('For_each')?['address']}"
