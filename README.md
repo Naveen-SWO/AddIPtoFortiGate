@@ -12,6 +12,10 @@ This readme document provides step-by-step instructions on how to add malicious 
 2. Make sure you a bearer token from an Administrator account created with right permissions assigned to it on Fortigate firewall.
 3. Create a group / folder on FortiGate firewall under Policy & Objects --> Addresses.
 
+[!Warning]  
+You will end up with the error if your FortiGate URL uses Public IP rather than domain name that with SSL certificate attached to it.  
+Error Message - "**Http request failed as there is an error: 'The SSL connection could not be established, see inner exception.'.**"
+
 ## Deploy Azure Logic App
 
 If you want to deploy this app to your Azure tenant, just click the below button.
