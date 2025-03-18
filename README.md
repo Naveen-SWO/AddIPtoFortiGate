@@ -20,4 +20,4 @@ If you want to deploy this app to your Azure tenant, just click the below button
 
 ## Description of Actions Used in this Logic App
 - **Microsoft Sentinel Incident** action uses an API connection to connect to your Sentinel Log Analytics Workspace when you manually trigger this playbook for an incident.
-  ![1. Microsoft Sentinel Incident Action](/Screenshots/2. Initialize Variable.jpg)
+  ![1. Microsoft Sentinel Incident Action](/AddIPtoFortiGate/Screenshots/2. Initialize Variable.jpg)
